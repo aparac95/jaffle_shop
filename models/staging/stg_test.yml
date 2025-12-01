@@ -1,0 +1,9 @@
+models:
+  - name: stg_test
+    description: Lowercase customer names. 
+    columns:
+      - name: customer_id
+        description: The unique key for each customer.
+        data_tests:
+          - not_null
+          - unique
